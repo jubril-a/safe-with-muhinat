@@ -30,18 +30,22 @@
 }
 
 .pb {
-    padding-block: 8rem;
+    padding-block: 6rem;
+
+    @media (min-width: 768px) {
+        padding-block: 8rem;
+    }
 }
 
 .p1 {
-    font-size: 24px;
+    font-size: clamp(1.25rem, 1.1591rem + 0.4545vw, 1.5rem);
     font-weight: 600;
     max-width: 960px;
     margin-bottom: 1rem;
 }
 
 .p2 {
-    font-size: 18px;
+    font-size: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem);
     font-weight: 400;
     max-width: 820px;
 }
