@@ -22,3 +22,13 @@ a {
 li {
   list-style-type: none;
 }
+
+/* --------------------- Utils --------------------- */
+.mx-auto {
+  margin-inline: auto;
+}
+
+.constraint {
+  max-width: 1000px;
+  margin-inline: auto;
+}

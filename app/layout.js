@@ -1,5 +1,5 @@
 import './globals.css'
-import { MonaSans } from "./fontLoader"
+import { MonaSansWide } from "./fontLoader"
 
 export const metadata = {
   title: "Safe With Muhinat",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={MonaSans.className}>
+      <body className={MonaSansWide.className}>
         {children}
       </body>
     </html>

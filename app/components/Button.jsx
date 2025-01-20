@@ -1,19 +1,11 @@
 import Image from "next/image";
-import variables from "./variables.module.scss"
+import styles from "./Button.module.scss"
 
 const Button = ({ label }) => {
     return (
-        <button style={{
-            //color: 'white',
-            //backgroundColor: variables.primaryColor,
-            display: 'flex',
-            alignItems: 'center',
-            gap: '.5rem',
-            padding: '1rem 2.5rem',
-            borderRadius: '100px',
-            }}>
+        <button className={styles.button}>
             <span>{label}</span>
-            <Image width="28" height="28" alt=""/>
+            <Image src="/images/arrow.png" width="16" height="16" alt=""/>
         </button>
     );
 };

@@ -1,0 +1,47 @@
+@use './variables.module.scss';
+
+.intro {
+    position: relative;
+    background-color: variables.$purple_300;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: variables.$purple_300;
+        background-image: url('/images/pattern.jpg');
+        background-size: 640px;
+        background-blend-mode: color-burn;
+        opacity: 0.24;
+    }
+
+    p {
+        position: relative;
+        z-index: 5;
+        color: variables.$purple_600;
+        line-height: 140%;
+        padding-inline: 1rem;
+
+        @media (min-width: 768px) {
+            padding-inline: 2rem;
+        }
+    }
+
+}
+
+.pb {
+    padding-block: 8rem;
+}
+
+.p1 {
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 960px;
+    margin-bottom: 1rem;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 820px;
+}

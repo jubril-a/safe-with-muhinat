@@ -1,0 +1,23 @@
+@use './variables.module.scss';
+
+.button {
+    color: variables.$gray_700;
+    background-color: variables.$green_400;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1.2em 2.5em;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+
+    &:hover {
+        background-color: variables.$purple_600;
+        color: white;
+
+        img {
+            filter: invert(1);
+        }
+    }
+}
