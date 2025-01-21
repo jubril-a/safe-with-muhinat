@@ -2,11 +2,15 @@
 
 .hero {
     display: grid;
-    min-height: calc(100vh - 72px);
+    min-height: 800px;
     align-items: center;
     
     @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 1520px) {
+        min-height: calc(100vh - 72px);
     }
 }
 
