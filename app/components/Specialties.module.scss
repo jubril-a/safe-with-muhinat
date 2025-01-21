@@ -1,0 +1,32 @@
+@use './variables.module.scss';
+
+.specialtiesWrapper {
+    background-color: variables.$gray_200;
+
+    h2 {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.specialtiesBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    > * {
+        flex: auto 1 0;
+    }
+}
+
+.imgBox {
+    align-self: stretch;
+    border-radius: 16px;
+    flex-basis: 300px;
+    background-image: url('/images/lady.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width: 710px) {
+        display: none;
+    }
+}

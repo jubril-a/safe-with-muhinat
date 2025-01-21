@@ -61,3 +61,10 @@ li {
   line-height: 150%;
   margin-bottom: 1.5rem;
 }
+
+h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: -1;
+}
