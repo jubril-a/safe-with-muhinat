@@ -1,0 +1,27 @@
+@use './variables.module.scss';
+
+.faqBox {
+    background-color: variables.$gray_200;
+    padding: 36px;
+    border-bottom: 1px solid variables.$purple_600;
+
+    @media (max-width: 520px) {
+        padding: 24px;
+    }
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    color: variables.$purple_600;
+}
+
+.answer {
+    max-width: 640px;
+    line-height: 150%;
+    color: rgba(41, 6, 41, 0.8);
+    margin-top: 1rem;
+    padding-right: 8px;
+}

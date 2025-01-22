@@ -5,6 +5,7 @@ import About from "./components/About"
 import Specialties from "./components/Specialties"
 import Mnv from "./components/Mnv"
 import Product from "./components/Product"
+import Faq from "./components/Faq"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Specialties />
         <Mnv />
         <Product />
+        <Faq />
       </>
   )
 }
