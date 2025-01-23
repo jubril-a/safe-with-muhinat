@@ -36,7 +36,9 @@ const Product = () => {
                     <li>Marriage</li>
                 </ul> 
             </div>
-            {/* <Image src="/images/BookMockup.png" width="500" height="664" alt="Wisdom Letters for the Young Muslimah" />   */}
+            <div className={styles.imgContainer}>
+                <Image src="/images/BookMockup.png" width="500" height="664" alt="Wisdom Letters for the Young Muslimah" />  
+            </div>
         </div>
     </section>
   )
