@@ -13,7 +13,7 @@ const Product = () => {
                     <h2 className="h2">Wisdom Letters for the Young Muslimah</h2>
                     <p className="bodyText">Collection of 30 heartfelt letters for young Muslim women seeking guidance in different areas of life</p>
                     <div className={styles.actions}>
-                        <Button label="Get Your Copy" eClass="variant" />
+                        <Button label="Get Your Copy" eClass="variant" to="https://selar.co/3ct9g1" />
                         <a href="#" className={styles.link}>See Product Details</a>
                     </div>
                 </div> 

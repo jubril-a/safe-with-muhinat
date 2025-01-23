@@ -5,7 +5,7 @@
 }
 
 .heading {
-    font-size: 18;
+    font-size: 16px;
     font-weight: 400;
     border-radius: 60px;
     width: fit-content;
@@ -41,9 +41,10 @@
 }
 
 .vision1 {
-    background-color: variables.$purple_800;
     margin-block: 2rem;
     padding: 3rem;
+    background: linear-gradient(to right, rgba(29, 4, 29, 0.98), rgba(29, 4, 29, 0.98)), url('/images/vision1.jpeg') no-repeat center center;
+    background-size: 100%;
 
     @media (min-width: 920px) {
         padding: 5rem 4rem;
@@ -62,5 +63,8 @@
         background-color: variables.$gray_400;
         min-width: 180px;
         height: 180px;
+        background-image: url('/images/vision.jpeg');
+        background-size: 160%;
+        background-position: center;
     }
 }

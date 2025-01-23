@@ -4,6 +4,11 @@
     background-color: variables.$gray_200;
     padding: 36px;
     border-bottom: 1px solid variables.$purple_600;
+    cursor: pointer;
+
+    &:hover {
+        border-bottom: 1px solid variables.$gold_400;
+    }
 
     @media (max-width: 520px) {
         padding: 24px;

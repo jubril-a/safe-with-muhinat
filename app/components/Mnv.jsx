@@ -1,4 +1,5 @@
 import { MonaSans } from '../fontLoader'
+import Image from 'next/image'
 import styles from './mnv.module.scss'
 
 const Mnv = () => {
@@ -18,7 +19,8 @@ const Mnv = () => {
                     <p className={styles.text} style={{color: "white"}}>To create a nurturing and inclusive space where Muslimahs feel valued and supported as they thrive emotionally, spiritually, and mentally.</p>
                 </div>
                 <div className={styles.vision2}>
-                    <div className={styles.visionImage}></div>
+                    <div className={styles.visionImage}>
+                    </div>
                     <p className="bodyText">My vision is to inspire transformation and growth through faith-based guidance, helping young women find strength in themselves and connection with their Creator. I also aim to reduce stigma around mental health within the Muslim community and normalize recovery conversations rooted in Islam.  </p>
                 </div>
             </div>

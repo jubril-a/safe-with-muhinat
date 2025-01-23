@@ -6,8 +6,8 @@ const Action = () => {
     <section className={`${styles.action} constraint-500`}>
         <div className={styles.form}>
             <div className="constraint-300">
-                <h2>Didn’t find the answer you were looking for?</h2>
-                <p className="bodyText">Let me know below, and I’ll get back to you soon!</p>
+                <h2>Didn&apos;t find the answer you were looking for?</h2>
+                <p className="bodyText">Let me know below, and I&apos;ll get back to you soon!</p>
                 <form>
                     <label htmlFor="name">Email
                         <input type="email" name="Email" id="email" />
