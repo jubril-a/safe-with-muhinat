@@ -1,0 +1,48 @@
+@use './variables.module.scss';
+
+.helplines {
+    background-color: variables.$gray_200;
+    padding-block: 3rem;
+}
+
+.helpline {
+    font-size: 18px;
+    max-width: 520px;
+    line-height: 150%;
+    padding-inline: 1rem;
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.socials {
+    background-color: variables.$gold_300;
+    padding: 2rem .5rem;
+
+    span {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+.links {
+    display: flex;
+    gap: .25rem;
+}
+
+.iconBox {
+    background-color: rgba(217, 217, 217, 0.5);
+    border: 1px solid variables.$purple_600;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+}

@@ -7,6 +7,7 @@ import Mnv from "./components/Mnv"
 import Product from "./components/Product"
 import Faq from "./components/Faq"
 import Action from "./components/Action"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Product />
         <Faq />
         <Action />
+        <Footer />
       </>
   )
 }

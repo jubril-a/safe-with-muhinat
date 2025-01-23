@@ -2,6 +2,7 @@
 
 .action {
     display: grid;
+    margin-bottom: 4rem;
 
     @media (min-width: 856px) {
         grid-template-columns: 1fr 1fr;
