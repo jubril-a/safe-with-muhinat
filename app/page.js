@@ -6,6 +6,7 @@ import Specialties from "./components/Specialties"
 import Mnv from "./components/Mnv"
 import Product from "./components/Product"
 import Faq from "./components/Faq"
+import Action from "./components/Action"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Mnv />
         <Product />
         <Faq />
+        <Action />
       </>
   )
 }

@@ -4,7 +4,7 @@ import Button from './Button';
 
 const About = () => {
     return (
-        <div className={`${styles.about} constraint-500 section`}>
+        <section className={`${styles.about} constraint-500 section`}>
             <div className={styles.aboutMain}>
                 <div className={styles.aboutImage}></div>
                 <div className={styles.aboutContent}>
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

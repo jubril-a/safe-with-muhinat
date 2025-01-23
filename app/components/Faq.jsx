@@ -3,7 +3,7 @@ import styles from './faq.module.scss'
 
 const Faq = () => {
   return (
-    <div className={`${styles.faq} section`}>
+    <section className={`${styles.faq} section`}>
       <h2 className="h2">Frequently Asked Questions</h2>
       <div className={styles.faqBoxes}>
           <FaqBox question="What areas do you specialize in?" answer="I focus on self-discovery, identity development, building confidence, and overcoming self-esteem issues. I also provide faith-based support for overcoming porn addiction." />
@@ -14,7 +14,7 @@ const Faq = () => {
           <FaqBox question="Is coaching the same as therapy?" answer="Coaching and therapy are different, though they share some similarities. Coaching focuses on helping you set and achieve personal goals, develop practical strategies, and move forward in life. Therapy, on the other hand, involves addressing deeper mental health issues, trauma, or clinical diagnoses." /> 
           <FaqBox question="Do you offer therapy services?" answer="Currently, I do not offer therapy services as I am not a licensed therapist yet. However, I am a WHO-certified mental health and recovery coach and a student of Islamic psychology. My coaching services are designed to provide support, guidance, and actionable steps within a faith-based framework. If you require therapy, I’m happy to help you find licensed professionals who can meet your needs." /> 
       </div>
-    </div>
+    </section>
   )
 }
 

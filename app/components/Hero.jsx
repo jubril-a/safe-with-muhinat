@@ -5,7 +5,7 @@ import { MonaSans } from "../fontLoader"
 
 export default function Hero() {
     return (
-        <div className={styles.hero}>
+        <header className={styles.hero}>
             <div className={styles.heroImage}>
 
             </div>
@@ -18,7 +18,7 @@ export default function Hero() {
                     <Button label="Book a Recovery Call" />
                 </div>
             </div>
-        </div>
+        </header>
         
     )
 }   

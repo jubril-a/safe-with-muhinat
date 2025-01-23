@@ -3,7 +3,7 @@ import TextBox from './TextBox'
 
 const Specialties = () => {
   return (
-    <div className={`${styles.specialtiesWrapper} section`}>
+    <section className={`${styles.specialtiesWrapper} section`}>
         <div className='constraint-500'>
             <h2>Specialties</h2>
             <div className={styles.specialtiesBox}>
@@ -14,7 +14,7 @@ const Specialties = () => {
                 <TextBox icon="/images/moon.png" specialty="Faith-based support for Muslimahs struggling with porn addiction" background="#D3D3D3" width="400px"/>
             </div>
         </div>
-    </div> 
+    </section> 
   )
 }
 

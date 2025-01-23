@@ -3,7 +3,7 @@ import styles from './mnv.module.scss'
 
 const Mnv = () => {
   return (
-    <div className={`${styles.mnv} section`}>
+    <section className={`${styles.mnv} section`}>
         <div className="constraint-500">
             <div className={styles.mission}>
                 <div className={styles.missionContent}>
@@ -23,7 +23,7 @@ const Mnv = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
