@@ -6,6 +6,10 @@
         text-align: center;
         margin: 0 auto 4rem;
     }
+
+    @media (max-width: 900px) {
+        padding-top: 4rem;
+    }
 }
 
 .faqBoxes {

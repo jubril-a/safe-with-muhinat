@@ -1,16 +1,11 @@
 import Image from 'next/image'
+import styles from './textbox.module.scss'
 
 const TextBox = ({icon, specialty, width, background}) => {
   return (
-    <div style={{backgroundColor: background, padding: "48px 36px", width: "fit-content", borderRadius: "16px"}}>
-        <Image src={icon} alt="" width="40" height="40"/>
-        <p style={{
-            maxWidth: width,
-            fontSize: "20px",
-            fontWeight: "500",
-            lineHeight: "128%",
-            marginTop: "16px"
-        }}>{specialty}</p>
+    <div className={styles.box} style={{backgroundColor: background}}>
+        <Image src={icon} alt="" width="36" height="36"/>
+        <p className={styles.p} style={{maxWidth: width}}>{specialty}</p>
     </div>
   )
 }

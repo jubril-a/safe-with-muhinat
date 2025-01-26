@@ -21,9 +21,16 @@ const Action = () => {
         </div>
         <div className={styles.booking}>
             <div className="constraint-300">
-                <h2>Book an Appointment Instead</h2>
-                <p className="bodyText">Need more than just answers? Book an appointment with me for a personalized session. Whether it&apos;s a quick consultation or an in-depth discussion, I&apos;m here to help.</p>
-                <Button label="Book a 10-min Recovery Call" eClass="variant" />
+                <div className={styles.bookingContent}>
+                    <h2>Book an Appointment Instead</h2>
+                    <p className="bodyText">Need more than just answers? Book an appointment with me for a personalized session. Whether it&apos;s a quick consultation or an in-depth discussion, I&apos;m here to help.</p>
+                    <Button label="Book a Recovery Call" eClass="variant" />
+                </div>
+                <div className={styles.shapesWrapper}>
+                    <div className={`${styles.shape} ${styles.shape1}`}></div>
+                    <div className={`${styles.shape} ${styles.shape2}`}></div>
+                    <div className={`${styles.shape} ${styles.shape3}`}></div>
+                </div>
             </div>
         </div>
     </section>

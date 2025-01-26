@@ -2,7 +2,7 @@
 
 .hero {
     display: grid;
-    min-height: 800px;
+    min-height: 620px;
     align-items: center;
     
     @media (min-width: 768px) {
@@ -26,9 +26,8 @@
 
 .h1 {
     font-weight: 500;
-    color: #290629;
+    color: variables.$purple_600;
     font-size: clamp(1.625rem, 1.3977rem + 1.1364vw, 2.25rem);
-    //font-size: 36px;
     line-height: 120%;
 }
 

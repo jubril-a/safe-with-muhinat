@@ -63,7 +63,7 @@ li {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: clamp(2.25rem, 2.0735rem + 0.8824vw, 2.625rem);
   font-weight: 600;
   margin-bottom: 1rem;
   letter-spacing: -1;

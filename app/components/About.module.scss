@@ -17,7 +17,7 @@
 
 .aboutImage {
     background-color: variables.$gray_400;
-    min-height: 560px;
+    min-height: 520px;
 }
 
 .aboutContent {
@@ -38,7 +38,7 @@
     font-size: 32px;
     color: variables.$purple_600;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
     @media (min-width: 768px) {
         margin-top: 3rem;
@@ -61,15 +61,15 @@
 .cert {
     display: flex;
     flex: auto 0 0;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .imgWrappper {
     background-color: variables.$gray_400;
     padding-inline: .75rem;
-    height: 68px;
+    height: 60px;
 
     img {
-        width: 44px;
+        width: 36px;
     }
 }

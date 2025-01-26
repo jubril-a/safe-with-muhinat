@@ -6,7 +6,12 @@
 
     h2 {
         margin-bottom: 2.5rem;
+        color: #2a512a;
     }
+
+    // p {
+    //     color: variables.$gray_700;
+    // }
 }
 
 .specialtiesBox {
@@ -17,6 +22,10 @@
     > * {
         flex: auto 1 0;
     }
+
+    // img {
+    //     filter: invert(.2);
+    // }
 }
 
 .imgBox {
