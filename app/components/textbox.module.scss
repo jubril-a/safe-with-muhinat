@@ -1,3 +1,5 @@
+@use './variables.module.scss';
+
 .box {
     padding: 36px 32px;
     width: fit-content;
@@ -6,6 +8,10 @@
     @media (min-width: 720px) {
         padding: 48px 36px;
     }
+
+    img {
+        filter: invert(.05);
+    }
 }
 
 .p {
@@ -13,4 +19,5 @@
     font-weight: 500;
     line-height: 128%;
     margin-top: 16px;
+    color: variables.$gray_700;
 }
