@@ -14,11 +14,15 @@
 }
 
 .text {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 135%;
     font-weight: 600;
     max-width: 560px;
     text-wrap: balance;
+
+    @media (min-width: 520px) {
+        font-size: 28px;
+    }
 }
 
 .mission {
@@ -36,7 +40,7 @@
 }
 
 .missionImage {
-    background-color: variables.$gray_400;
+    background-color: variables.$gold_300;
     min-height: 440px;
 }
 
@@ -44,7 +48,7 @@
     margin-block: 2rem;
     padding: 2rem;
     background: linear-gradient(to right, rgba(29, 4, 29, 0.98), rgba(29, 4, 29, 0.98)), url('/images/vision1.jpeg') no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-width: 920px) {
         padding: 5rem 4rem;

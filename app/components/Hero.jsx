@@ -18,7 +18,6 @@ export default function Hero() {
                     <Button label="Book a Recovery Call" />
                 </div>
             </div>
-        </header>
-        
+        </header> 
     )
-}   
+}
