@@ -11,7 +11,9 @@ const Mnv = () => {
                     <h3 className={`${styles.heading} ${MonaSans.className}`} style={{backgroundColor: "#98FF98"}}>My Mission</h3>
                     <p className={styles.text} style={{color: "#290629"}}>My Mission is to empower young Muslim women to overcome personal challenges, build self-worth, and live intentionally faith-aligned lives through holistic coaching. </p>
                 </div>
-                <div className={styles.missionImage}></div>
+                <div className={`${styles.missionImage} center`}>
+                    <Image src="/images/mission.png" width="484" height="440" alt=""/>
+                </div>
             </div>
             <div className={styles.vision}>
                 <div className={styles.vision1}>

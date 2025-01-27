@@ -41,12 +41,21 @@
 
 .missionImage {
     background-color: variables.$gold_300;
-    min-height: 440px;
+    padding-block: 2rem 1rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 480px) {
+        min-height: 440px;
+    }
 }
 
 .vision1 {
     margin-block: 2rem;
-    padding: 2rem;
+    padding: 3rem 2rem;
     background: linear-gradient(to right, rgba(29, 4, 29, 0.98), rgba(29, 4, 29, 0.98)), url('/images/vision1.jpeg') no-repeat center center;
     background-size: cover;
 
