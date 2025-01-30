@@ -45,12 +45,16 @@
 }
 
 .link {
-    border-bottom: 4px solid variables.$purple_600;
+    border-bottom: 2px solid variables.$purple_600;
     padding-bottom: 2px;
     font-size: 14px;
 
     &:hover {
-        color: variables.$gold_400;
+        border-bottom: 3px solid variables.$gold_300;
+    }
+
+    &:active {
+        color: variables.$gold_300;
     }
 }
 

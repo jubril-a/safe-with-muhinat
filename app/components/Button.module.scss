@@ -27,3 +27,11 @@
     background-color: variables.$gold_300;
     border: 1px solid variables.$purple_800;
 }
+
+.variant2 {
+    background-color: variables.$purple_800;
+    color: #fff;
+    img {
+        filter: invert(1);
+    }
+}

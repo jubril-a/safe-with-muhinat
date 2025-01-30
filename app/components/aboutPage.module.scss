@@ -1,0 +1,12 @@
+@use './variables.module.scss';
+
+.about {
+    background-color: variables.$purple_800;
+
+    h1 {
+        text-align: center;
+        padding-block: 5rem;
+        color: variables.$gold_300;
+        font-size: clamp(1.625rem,1.3977rem + 1.1364vw,2.25rem);
+    }
+}
