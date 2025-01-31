@@ -5,6 +5,7 @@ import styles from './Navbar.module.scss'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Button from './Button'
+import Link from 'next/link'
 
 export default function Navbar({page}) {
     const [isOpen, setIsOpen] = useState(null)
@@ -17,13 +18,13 @@ export default function Navbar({page}) {
                     animate={isOpen ? {y: 63} : null}
                     transition={{duration: .75, ease: [.246,.75,.187,1]}}
                   className={styles.links}>
-                    <a href="/" className={page == "home" ? styles.active : null}>Home</a>
-                    <a href="/about" className={page == "about" ? styles.active : null}>About Me</a>
+                    <Link href="/" className={page == "home" ? styles.active : null}>Home</Link>
+                    <Link href="/about" className={page == "about" ? styles.active : null}>About Me</Link>
                     <a href="">Resourses</a>
                     <a className={styles.mobileCtaButton} href="">Get Help Now</a>
                 </motion.div>
                 <div className={styles.navButtons}>
-                    <Button label="Get Help Now" to="#" eClass="variant2"/>
+                    <Button label="Get Help Now" to="#" eClass="variant2" isCTA="true" />
                     <button className={styles.mobileNav}>
                        <Image src={isOpen ? "/images/close.png" : "/images/menu.png"} width="26" height="26" alt="menu" onClick={() => setIsOpen(!isOpen)}/>
                     </button>

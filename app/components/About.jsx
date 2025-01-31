@@ -11,7 +11,7 @@ const About = ({page}) => {
                     <h2>Hi 👋, I&apos;m <span>Muhinat</span></h2>
                     <p className={`${styles.introText} bodyText`}>I&apos;m a WHO-certified mental health and recovery coach dedicated to supporting young Muslimahs (ages 12–35) in navigating life&apos;s challenges with faith, resilience, and clarity.</p>
                     <p className={`${styles.introText} bodyText`}>As a student of Islamic psychology and a mental health and recovery coach, my focus areas include self-discovery, self-esteem, identity development, confidence building, and recovery from porn addiction. I&apos;m here to help you heal, grow, and step into the best version of yourself—mind, heart, and soul.  </p>
-                    <Button label={page == "about" ? "Book a Recovery Call" : "Get to Know Me"} />
+                    <Button label={page == "about" ? "Book a Recovery Call" : "Get to Know Me"} to={page == "about" ? "#" : "/about"}/>
                 </div>
             </div>
             {page == "about" ? <div className={styles.certifications}>

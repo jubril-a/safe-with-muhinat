@@ -35,6 +35,10 @@
     position: relative;
     max-width: 480px;
     z-index: 5;
+
+    h2 {
+        text-wrap: balance;
+    }
 }
 
 .actions {
