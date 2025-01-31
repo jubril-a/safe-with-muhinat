@@ -2,7 +2,7 @@
 
 .hero {
     display: grid;
-    min-height: 620px;
+    min-height: 640px;
     align-items: center;
     
     @media (min-width: 768px) {
@@ -19,11 +19,12 @@
     padding: 2rem 1rem;
 
     display: grid;
-    gap: 1.25rem;
+    gap: .75rem;
 
     @media (min-width: 768px) {
         margin-inline: auto;
         padding-inline: 2rem;
+        gap: 1.25rem;
     }
 }
 
@@ -57,7 +58,7 @@
 }
 
 .tagline {
-    background-color: rgba(255, 212, 72, 0.08);
+    background-color: rgba(255, 212, 72, 0.1);
     padding: .75rem 1.75rem;
     width: fit-content;
     border-radius: 50px;

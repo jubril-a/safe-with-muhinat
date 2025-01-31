@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     gap: .5rem;
-    padding: 1.1em 2.5em;
+    padding: 1em 2em;
     border-radius: 100px;
     font-weight: 500;
     font-size: 14px;
@@ -20,6 +20,10 @@
         img {
             filter: invert(1);
         }
+    }
+
+    @media (min-width: 520px) {
+        padding: 1.1em 2.5em;
     }
 }
 
