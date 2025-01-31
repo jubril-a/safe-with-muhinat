@@ -16,7 +16,7 @@
 
 .heroContent {
     max-width: 580px;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 
     display: grid;
     gap: .9rem;
@@ -52,7 +52,7 @@
     height: 100%;
     min-height: 320px;
     background: linear-gradient(to right, rgba(26, 1, 26, 0.4), rgba(26, 1, 26, 0.4)), url("/images/hero-image2.jpg") center no-repeat;
-    background-size: 125%;
+    background-size: cover;
 
     @media (min-width: 768px) {
         order: 2;
