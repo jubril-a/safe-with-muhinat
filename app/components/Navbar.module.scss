@@ -22,7 +22,7 @@
     display: flex;
     gap: 2.5rem;
 
-    a {
+    a, button {
         font-size: 14px;
         color: variables.$purple_600;
         border-bottom: 2px solid transparent;
@@ -53,6 +53,38 @@
     }
 }
 
+.Button {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+.dropdown {
+    @media (min-width: 720px) {
+        position: absolute;
+        width: 240px;
+        background-color: variables.$gray_200;
+        padding: 1rem 1.5rem;
+        margin-top: .5rem;
+        z-index: 2;
+
+        a {
+            padding-block: .5rem;
+            border-bottom: 1px solid variables.$gray_400;
+            display: block;
+            line-height: 145%;
+
+            &:hover {
+                border-bottom: 1px solid variables.$gold_300;
+            }
+        }
+    }
+}
+
+.mobileResourses {
+    display: none;
+}
+
 a.active {
     border-bottom: 2px solid variables.$purple_600;
 }
@@ -76,7 +108,7 @@ a.active {
         gap: 0;
         z-index: -99;
 
-        a {
+        a, button {
             border-bottom: 1px solid #F1F1F1;
             padding: 16px 32px;
 
@@ -93,6 +125,15 @@ a.active {
     .navButtons {
         display: flex;
         gap: 1rem;
+    }
+
+    .mobileResourses {
+        display: grid;
+        padding-inline: 1rem;
+    }
+
+    .dropdown {
+        display: none;
     }
 }
 

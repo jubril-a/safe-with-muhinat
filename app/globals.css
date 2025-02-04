@@ -69,3 +69,7 @@ h2 {
   letter-spacing: -1;
   color: #290629;
 }
+
+button {
+  all: unset;
+}

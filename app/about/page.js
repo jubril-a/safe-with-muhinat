@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import About from "../components/About"
 import Mnv from "../components/Mnv"
 import Footer from "../components/Footer"
+import Cta from "../components/Cta"
 import styles from '../components/aboutPage.module.scss'
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
         <About page="about" />
       </div>
       <Mnv />
+      <Cta />
       <Footer />
     </>
   )
