@@ -8,10 +8,7 @@ const page = () => {
   return (
     <>
       <Navbar page="about" />
-      {/* <section className={styles.about}>
-          <h1>About Me</h1>
-      </section> */}
-      <div style={{backgroundColor: 'rgba(255, 212, 72, .2)'}}>
+      <div className={styles.about} style={{backgroundColor: 'rgba(255, 212, 72, .2)'}}>
         <About page="about" />
       </div>
       <Mnv />

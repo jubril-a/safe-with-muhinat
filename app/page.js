@@ -6,6 +6,7 @@ import Specialties from "./components/Specialties"
 import Product from "./components/Product"
 import Faq from "./components/Faq"
 import Action from "./components/Action"
+import Cta from "./components/Cta"
 import Footer from "./components/Footer"
 
 export default function Home() {
@@ -16,10 +17,10 @@ export default function Home() {
         <Intro />
         <About page="home"/>
         <Specialties />
-        {/* <Mnv /> */}
         <Product />
         <Faq />
         <Action />
+        <Cta />
         <Footer />
       </>
   )

@@ -1,0 +1,19 @@
+@use './variables.module.scss';
+
+.ctaSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)) ,url("/images/office-space.jpg") center;
+    background-size: cover;
+    
+    h2 {
+        color: variables.$gold_300;
+    }
+
+    p {
+        margin-bottom: 1.5rem;
+        color: #fff;
+    }
+}
+
+.ctaContent {
+    padding-inline: 16px;    
+}
