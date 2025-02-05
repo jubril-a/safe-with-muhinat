@@ -38,6 +38,11 @@ li {
   margin-inline: auto;
 }
 
+.constraint-600 {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
 .center {
   display: grid;
   justify-content: center;
