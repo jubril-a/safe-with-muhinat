@@ -1,1 +1,48 @@
 @use './variables.module.scss';
+
+.contents {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ContentBox {
+    background-color: variables.$gray_200;
+    flex: 300px 0 0;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;  
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    div {
+        width: 40px;
+        border-radius: 100px;
+        background-color: variables.$green_400;
+        aspect-ratio: 1 / 1;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+}
+
+.body {
+    p {
+        line-height: 120%;
+        letter-spacing: .5px;
+    }
+
+    p:first-child {
+        margin-bottom: .5rem;
+    }
+}
+
+.h2 {
+    margin-bottom: 2.5rem;
+}

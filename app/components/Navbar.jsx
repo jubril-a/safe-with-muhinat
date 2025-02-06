@@ -32,10 +32,10 @@ export default function Navbar({page}) {
                             animate={{y: 0, opacity: 1}}
                             transition={transition}
                         className={styles.dropdown}>
-                            <a href="">Wisdom Letters for the Young Muslimah</a>
+                            <a href="/resourses/wisdom-letters">Wisdom Letters for the Young Muslimah</a>
                         </motion.div>}
                         {clicked && <div className={styles.mobileResourses}>
-                            <a href="">Wisdom Letters for the Young Muslimah</a>
+                            <a href="/resourses/wisdom-letters">Wisdom Letters for the Young Muslimah</a>
                         </div>}
                     </div>
                     <a className={styles.mobileCtaButton} href="">Get Help Now</a>
