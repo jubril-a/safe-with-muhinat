@@ -7,7 +7,7 @@
 }
 
 .ContentBox {
-    background-color: variables.$gray_200;
+    background-color: rgb(236, 236, 236);
     flex: 300px 0 0;
     padding: 2rem 1.5rem;
     border-radius: 1rem;  
@@ -20,14 +20,14 @@
     margin-bottom: 1.5rem;
 
     div {
-        width: 40px;
+        width: 50px;
         border-radius: 100px;
         background-color: variables.$green_400;
         aspect-ratio: 1 / 1;
     }
 
     h3 {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         font-weight: 600;
     }
 }
@@ -35,7 +35,6 @@
 .body {
     p {
         line-height: 120%;
-        letter-spacing: .5px;
     }
 
     p:first-child {
@@ -45,4 +44,5 @@
 
 .h2 {
     margin-bottom: 2.5rem;
+    color: variables.$purple_600;
 }
