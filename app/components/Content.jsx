@@ -64,7 +64,7 @@ const ContentBox = ({icon, heading, desc}) => {
 
 const Content = () => {
   return (
-    <div className="constraint-500">
+    <div className={`${styles.contentWrapper} constraint-500`}>
       <h2 className={styles.h2}>What's Inside</h2>
       <div className={styles.contents}>{toc.map((item) => <ContentBox key={item.chapter} icon={item.icon} heading={item.chapter} desc={item.descriptions} />)}</div>
     </div>

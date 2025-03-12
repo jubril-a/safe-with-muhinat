@@ -1,5 +1,12 @@
 @use './variables.module.scss';
 
+@media (max-width: 1000px) {
+    .contentWrapper {
+        padding-inline: 1rem;
+    }
+}
+
+
 .contents {
     display: flex;
     gap: 1rem;
@@ -8,7 +15,7 @@
 
 .ContentBox {
     background-color: rgb(236, 236, 236);
-    flex: 300px 0 0;
+    flex: 300px 1 0;
     padding: 2rem 1.5rem;
     border-radius: 1rem;  
 }
