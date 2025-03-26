@@ -1,10 +1,18 @@
 @use './variables.module.scss';
 
+.p1 {
+    padding-inline: 1rem;
+}
+
 .intro {
     background-color: variables.$green_500;
     color: #fff;
-    padding: 4rem;
+    padding: 2rem;
     margin-bottom: .75rem;
+
+    @media (min-width: 720px) {
+        padding: 4rem;
+    }
 }
 
 .introText {
@@ -21,7 +29,7 @@
     }
 
     > * {
-        padding: 3rem 1rem;
+        padding: 2.5rem 2rem;
         border-radius: 1rem;
 
         @media (min-width: 500px) {
@@ -46,6 +54,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/images/reading.jpeg") ;
     background-size: cover;
     color: #fff;
+    text-wrap: pretty;
 }
 
 .heading {

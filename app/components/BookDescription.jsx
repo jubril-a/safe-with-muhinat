@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const BookDescription = () => {
   return (
-    <section className="section">
+    <section className={`${styles.p1} section`}>
         <div className={`${styles.intro} constraint-500`}>
             <p className={styles.introText}>This book was thoughtfully crafted to educate, inspire, and empower young Muslimahs on their journey toward becoming well-rounded individuals. Whether you&apos;re looking for advice, reassurance, or a faith-based perspective on life&apos;s challenges, Wisdom Letters is here to support you.</p>
         </div>

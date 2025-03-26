@@ -14,16 +14,16 @@ const Footer = () => {
                 <span>&copy; Muhinat, 2025.</span>
                 <div className={styles.links}>
                     <a href="https://www.facebook.com/profile.php?id=61571472326746" className={`${styles.iconBox} center`}>
-                        <Image src="/images/facebook.png" alt="" width={20} height={20} />
+                        <Image src="/images/facebook.png" alt="" width={16} height={16} />
                     </a>
                     <a href="https://www.youtube.com/@safewithmuhinat" className={`${styles.iconBox} center`}>
-                        <Image src="/images/youtube.png" alt="" width={20} height={20} />
+                        <Image src="/images/youtube.png" alt="" width={16} height={16} />
                     </a>
                     <a href="https://x.com/safewithmuhinat" className={`${styles.iconBox} center`}>
-                        <Image src="/images/twitter.png" alt="" width={20} height={20} />
+                        <Image src="/images/twitter.png" alt="" width={16} height={16} />
                     </a>
                     <a href="https://www.instagram.com/safewithmuhinatt" className={`${styles.iconBox} center`}>
-                        <Image src="/images/instagram.png" alt="" width={20} height={20} />
+                        <Image src="/images/instagram.png" alt="" width={16} height={16} />
                     </a>
                 </div>
             </div>

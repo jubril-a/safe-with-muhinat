@@ -57,7 +57,6 @@ const ContentBox = ({icon, heading, desc}) => {
       <div className={styles.body}>
         {desc.map((item) => <p className={MonaSans.className}>{item}</p>)}
       </div>
-      
     </div>
   )
 }
