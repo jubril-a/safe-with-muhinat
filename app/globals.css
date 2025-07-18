@@ -24,6 +24,10 @@ li {
   list-style-type: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* --------------------- Utils --------------------- */
 .mx-auto {
   margin-inline: auto;

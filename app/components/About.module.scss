@@ -17,7 +17,21 @@
 
 .aboutImage {
     background-color: variables.$gray_700;
-    min-height: 520px;
+    background-image: url('/images/muhinat2.png');
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 16px;
+
+    @media (min-width: 400px) {
+        min-height: 520px;
+    }
+
+    img {
+        width: 360px;
+    }
 }
 
 .aboutContent {

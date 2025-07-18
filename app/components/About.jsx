@@ -6,7 +6,9 @@ const About = ({page}) => {
     return (
         <section className={`${styles.about} constraint-500 section`}>
             <div className={styles.aboutMain}>
-                <div className={styles.aboutImage}></div>
+                <div className={styles.aboutImage} >
+                    <img src="/images/muhinart.png" alt='' />
+                </div>
                 <div className={styles.aboutContent}>
                     <h2>Hi 👋, I&apos;m <span>Muhinat</span></h2>
                     <p className={`${styles.introText} bodyText`}>I&apos;m a WHO-certified mental health and recovery coach dedicated to supporting young Muslimahs (ages 12–35) in navigating life&apos;s challenges with faith, resilience, and clarity.</p>

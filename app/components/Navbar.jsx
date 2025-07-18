@@ -10,7 +10,6 @@ import Link from 'next/link'
 export default function Navbar({page}) {
     const [isOpen, setIsOpen] = useState(null)
     const [clicked, setClicked] = useState(false)
-    
 
     const transition = {duration: .75, ease: [.246,.75,.187,1]}
 
