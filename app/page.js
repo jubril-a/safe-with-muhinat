@@ -13,7 +13,7 @@ export default function Home() {
   return (
       <>
         <Navbar page="home" />
-        {/* <Hero />
+        <Hero />
         <Intro />
         <About page="home"/>
         <Specialties />
@@ -21,7 +21,7 @@ export default function Home() {
         <Faq />
         <Action />
         <Cta />
-        <Footer /> */}
+        <Footer />
       </>
   )
 }
