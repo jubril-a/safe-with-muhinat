@@ -24,8 +24,8 @@ export default function Navbar({page}) {
                   className={styles.links}>
                     <Link href="/" className={page == "home" ? styles.active : undefined}>Home</Link>
                     <Link href="/about" className={page == "about" ? styles.active : undefined}>About Me</Link>
-                    <div className={styles.resourses}>
-                        <button className={styles.Button} onClick={() => setClicked(!clicked)}>Resourses</button>
+                    <div className={styles.resources} onClick={() => setClicked(!clicked)}>
+                        <button className={styles.Button}>Resourses</button>
                         {clicked && <motion.div
                             initial={{x: "-20%", y: "20%", opacity: 0}}
                             animate={{y: 0, opacity: 1}}
@@ -50,3 +50,4 @@ export default function Navbar({page}) {
         </div>
     )
 }
+
